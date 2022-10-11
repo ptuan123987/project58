@@ -1,0 +1,50 @@
+z-index : chiều sâu của web, ghi đè lên các div còn lại
+
++ overflow : khi nội dung bên trong lớn hơn hơn height
+    - scroll : thanh trượt 
+    - hidden : ẩn đi
+    - overflow-x :theo chiều rộng 
+    - overflow-y :theo chiều cao
+
++ outline : là phần bên ngoài của các element
+
++ đơn vị trong css :
+    px : điểm ảnh 
+    em : relative theo font size 
+        1 em = 1 font size
+    rem : root em : theo font size của thằng body s
+        1 rem = 1 font size của html
+
+    - trong thực tế người ta thường để 
+    html {
+        font-size:62.5%;
+    }
+    các trình duyệt : 16px => 62.5% = 10px;
+
++ vw : view port width : width của view port
+    - view port : phần hiển thị
+    - view port width : 1% của view port
+
+    - view port height :1% của view port height
+    - ít khi dùng trong thực tế
+
++ % : theo phần trăm của phần content
+
++ pt : point  
+    72 pt = 1 inch
+
+cm : không phải lúc nào cũng được hỗ trợ
+
+table : khó nhất để css
+
+box-shadow : bóng đổ (nên dùng rgba)
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    2px : đi sang bên phải
+    -2px : đi sang bên trái 
+    5px : sô dương đi xuống 
+    -5px : số âm đi lên
+    10px: đô tỏa của bóng
+
+    - box-shadow không ảnh hưởng đến không gian chiếm chỗ
+    - text-shadow : giống với box-shadow
+
